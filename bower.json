@@ -1,0 +1,21 @@
+{
+  "name": "AngularJs-2 Beta Application",
+  "description": "This is AngularJs-2 Beta Application",
+  "main": "index.html",
+  "authors": [
+    "Avnesh Shakya"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "AngularJs"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
