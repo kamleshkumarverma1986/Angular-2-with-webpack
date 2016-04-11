@@ -1,4 +1,4 @@
-import {Component} from 'angular2/core';
+import { Component } from 'angular2/core';
 const template: string = require('./fitness.html');
 
 @Component({

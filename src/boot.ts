@@ -3,17 +3,15 @@ import { bootstrap } from 'angular2/platform/browser';
 import { HTTP_PROVIDERS } from 'angular2/http';
 import { APP_BASE_HREF, ROUTER_PROVIDERS } from 'angular2/router';
 
-// root component
+/* root component */
 import { AppComponent } from 'components/app/app.component';
 
-// global styles
+/* global styles */
 import 'styles/styles.scss';
-
 
 if (process.env.NODE_ENV === 'production') {
   enableProdMode();
 }
-
 
 bootstrap(AppComponent, [
   HTTP_PROVIDERS,
