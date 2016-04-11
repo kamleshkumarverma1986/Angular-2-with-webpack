@@ -4,7 +4,7 @@ import { HTTP_PROVIDERS } from 'angular2/http';
 import { APP_BASE_HREF, ROUTER_PROVIDERS } from 'angular2/router';
 
 // root component
-import { App } from 'components/app/app';
+import { AppComponent } from 'components/app/app.component';
 
 // global styles
 import 'styles/styles.scss';
@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 
-bootstrap(App, [
+bootstrap(AppComponent, [
   HTTP_PROVIDERS,
   ROUTER_PROVIDERS,
   provide(APP_BASE_HREF, {useValue: '/'})

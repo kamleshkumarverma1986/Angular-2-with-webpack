@@ -18,7 +18,7 @@ module.exports = {
   devtool: 'source-map',
 
   entry: {
-    main: './src/main',
+    main: './src/boot',
     vendor: [
       'es6-shim',
       'angular2/bundles/angular2-polyfills',

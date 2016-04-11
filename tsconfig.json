@@ -11,7 +11,7 @@
   },
 
   "files": [
-    "src/main.ts",
+    "src/boot.ts",
     "typings/browser.d.ts"
   ]
 }

@@ -23,7 +23,7 @@ module.exports = {
   entry: {
     main: [
       `webpack-dev-server/client?http://${SERVER_HOST}:${SERVER_PORT}`,
-      './src/main'
+      './src/boot'
     ],
     vendor: [
       'es6-shim',
